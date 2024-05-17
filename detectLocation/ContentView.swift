@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var locationManager = LocationManager()
-    
+
     var body: some View {
         VStack {
             if let status = locationManager.authorizationStatus {
